@@ -37,7 +37,7 @@ order: 0
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | relative_url }}"/>
+        <img class="thumbnail" src="{{ site.baseurl }}{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
